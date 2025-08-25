@@ -21,30 +21,28 @@ Diseño simple, escalable y mantenible.
 
 ## 📁 Estructura
 
+```text
 src/RobotClouTools/
 ├─ Config/
-│ └─ TcpOptions.cs
+│  └─ TcpOptions.cs
 ├─ Controllers/
-│ ├─ HealthController.cs
-│ └─ TcpController.cs
+│  ├─ HealthController.cs
+│  └─ TcpController.cs
 ├─ Exceptions/
 ├─ logs/
 ├─ Models/
 ├─ Services/
-│ ├─ Abstractions/
-│ └─ Domain/
-│ ├─ ConnectionRegistry.cs
-│ ├─ TcpListenerService.cs
-│ └─ TcpSession.cs
+│  ├─ Abstractions/
+│  └─ Domain/
+│     ├─ ConnectionRegistry.cs
+│     ├─ TcpListenerService.cs
+│     └─ TcpSession.cs
 ├─ Utils/
 ├─ appsettings.json
 ├─ Program.cs
 └─ RobotClouTools.csproj
 
-markdown
-Copiar
-Editar
-
+```
 ---
 
 ## 🧩 Archivos clave (qué hace cada uno)
