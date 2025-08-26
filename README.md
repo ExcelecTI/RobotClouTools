@@ -3,9 +3,6 @@
 API **ASP.NET Core 8** con **listener TCP/IP multitarea** embebido, lista para publicar con **Native AOT** y correr como **servicio en Windows/Linux**.  
 Diseño simple, escalable y mantenible.
 
-> TL;DR: `dotnet run`, pega un `nc localhost 9901`, manda una línea y te responde `OK <linea>`.  
-> Después lo publicas AOT y lo instalas como servicio. Fin.
-
 ---
 
 ## 🚀 Features
